@@ -1,0 +1,16 @@
+PODS:
+  - FCTextField (0.0.1)
+
+DEPENDENCIES:
+  - FCTextField (from `.`)
+
+EXTERNAL SOURCES:
+  FCTextField:
+    :path: "."
+
+SPEC CHECKSUMS:
+  FCTextField: 6201caab88d29f61869319f21bb5aad47aa4784f
+
+PODFILE CHECKSUM: cf7687265b31e6df2282070933568e43ef1a6742
+
+COCOAPODS: 1.8.4
