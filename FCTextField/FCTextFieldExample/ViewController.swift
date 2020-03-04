@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var emailTxt: FCTextField!
     @IBOutlet weak var passwordTxt: FCTextField!
+    @IBOutlet weak var example2: FCTextField!
+    @IBOutlet weak var example3: FCTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +26,7 @@ class ViewController: UIViewController {
         //self.emailTxt.placeholderColor = yourColor
         
         //HOW TO STYLE CLEAR BUTTON:
-        let alpha : CGFloat = 0.5
+        let alpha : CGFloat = 0.7
         let type = ClearButtonType.custom
         self.emailTxt.clearButtonAlpha = alpha
         self.emailTxt.clearButtonType = type
@@ -35,6 +37,10 @@ class ViewController: UIViewController {
         let image = UIImage(named: "outlineRoundedClearButton")
         self.emailTxt.customClearButtonImage = image
         self.passwordTxt.customClearButtonImage = image
+        
+        //PRE-DEFINED CLEAR BUTTON TYPE EXAMPLE
+        self.example2.clearButtonType = .roundCorner
+        self.example3.clearButtonType = .arrow
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

@@ -8,8 +8,9 @@
 
 import UIKit
 
+//Enum to define how Clear Button should appear
 public enum ClearButtonType {
-    case iosDefault //native clear button icon
+    case iosDefault //native Clear Button icon
     case simple
     case rounded
     case outlineRounded
@@ -26,22 +27,24 @@ public class FCTextField: UITextField {
     fileprivate var bottomLine = UIView()
     fileprivate var tintedClearImage: UIImage?
 
-    open var customClearButtonImage : UIImage?
+    //Type of Clear Button if it is visible
     open var clearButtonType : ClearButtonType = .iosDefault
-    
+    //Image for Clear Button if the type is .custom
+    open var customClearButtonImage : UIImage?
+    //Value for alpha of Clear Button
     @IBInspectable open var clearButtonAlpha : CGFloat = 0.5
-    
+    //The color of the line in the bottom
     @IBInspectable open var bottomDefaultColor : UIColor = .lightGray {
         didSet {
             self.bottomLine.backgroundColor = self.bottomDefaultColor
         }
     }
-    
+    //The color of the line in the bottom when the text field is the first responder
     @IBInspectable open var bottomActiveColor : UIColor = .darkGray
-    
+    //The color of placeholder
     @IBInspectable open var placeholderColor : UIColor = .lightGray {
         didSet {
-            self.attributedPlaceholder = NSAttributedString(string: placeholder ?? "", attributes: [NSAttributedString.Key.foregroundColor:placeholderColor])
+            self.customizePlaceholder()
         }
     }
     
@@ -58,8 +61,8 @@ public class FCTextField: UITextField {
     //MARK: SETUPS
     
     fileprivate func initView() {
+        self.backgroundColor = .clear
         self.customizeBorder()
-        self.customizePlaceholder()
         self.configureEvents()
     }
     
@@ -207,7 +210,6 @@ public class FCTextField: UITextField {
 }
 
 extension UIImage {
-    
     func alpha(_ value:CGFloat) -> UIImage {
         UIGraphicsBeginImageContextWithOptions(size, false, scale)
         draw(at: CGPoint.zero, blendMode: .normal, alpha: value)
