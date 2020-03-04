@@ -29,6 +29,13 @@
 			remoteGlobalIDString = EF9BBDA823F463CC007F0B24;
 			remoteInfo = FCTextField;
 		};
+		EFAAAB67240EDB5900FA2B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF9BBDA023F463CB007F0B24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF9BBDC823F47AC3007F0B24;
+			remoteInfo = FCTextFieldExample;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -195,6 +202,7 @@
 			);
 			dependencies = (
 				EF9BBDB523F463CC007F0B24 /* PBXTargetDependency */,
+				EFAAAB68240EDB5900FA2B1D /* PBXTargetDependency */,
 			);
 			name = FCTextFieldTests;
 			productName = FCTextFieldTests;
@@ -348,6 +356,11 @@
 			isa = PBXTargetDependency;
 			target = EF9BBDA823F463CC007F0B24 /* FCTextField */;
 			targetProxy = EF9BBDB423F463CC007F0B24 /* PBXContainerItemProxy */;
+		};
+		EFAAAB68240EDB5900FA2B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF9BBDC823F47AC3007F0B24 /* FCTextFieldExample */;
+			targetProxy = EFAAAB67240EDB5900FA2B1D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

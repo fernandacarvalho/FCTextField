@@ -8,11 +8,28 @@
 
 import UIKit
 
+public enum ClearButtonType {
+    case iosDefault //native clear button icon
+    case simple
+    case rounded
+    case outlineRounded
+    case arrow
+    case outlineArrow
+    case roundCorner
+    case squareCorner
+    case custom //user provides the image
+}
+
 @IBDesignable 
 public class FCTextField: UITextField {
     
     fileprivate var bottomLine = UIView()
     fileprivate var tintedClearImage: UIImage?
+
+    open var customClearButtonImage : UIImage?
+    open var clearButtonType : ClearButtonType = .iosDefault
+    
+    @IBInspectable open var clearButtonAlpha : CGFloat = 0.5
     
     @IBInspectable open var bottomDefaultColor : UIColor = .lightGray {
         didSet {
@@ -27,8 +44,6 @@ public class FCTextField: UITextField {
             self.attributedPlaceholder = NSAttributedString(string: placeholder ?? "", attributes: [NSAttributedString.Key.foregroundColor:placeholderColor])
         }
     }
-    
-    
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -66,21 +81,78 @@ public class FCTextField: UITextField {
         self.addSubview(self.bottomLine)
     }
     
- 
     fileprivate func customizeClearButton() {
-        for view in self.subviews {
-            if view is UIButton {
-                let button = view as! UIButton
-                if let image = button.image(for: .highlighted) {
-                    if self.tintedClearImage == nil {
-                        tintedClearImage = image.withTintColor(self.bottomActiveColor)
+        if clearButtonMode != .never {
+            for view in self.subviews {
+                if view is UIButton {
+                    let button = view as! UIButton
+                    
+                    switch self.clearButtonType {
+                    case .iosDefault:
+                        if let image = button.image(for: .highlighted) {
+                            if self.tintedClearImage == nil {
+                                tintedClearImage = image.withTintColor(self.bottomActiveColor)
+                            }
+                            button.setImage(self.tintedClearImage, for: .normal)
+                            button.setImage(self.tintedClearImage, for: .highlighted)
+                            break
+                        }
+                    case .arrow:
+                        if let image = UIImage(named: "arrowClearButton") {
+                            self.setImageToClearButton(image: image, button: button)
+                            break
+                        }
+                    case .outlineArrow:
+                    if let image = UIImage(named: "outlineArrowClearButton") {
+                        self.setImageToClearButton(image: image, button: button)
+                        break
                     }
-                    button.setImage(self.tintedClearImage, for: .normal)
-                    button.setImage(self.tintedClearImage, for: .highlighted)
-                    break
+                    case .rounded:
+                    if let image = UIImage(named: "roundedClearButton") {
+                        self.setImageToClearButton(image: image, button: button)
+                        break
+                    }
+                    case .outlineRounded:
+                    if let image = UIImage(named: "outlineRoundedClearButton") {
+                        self.setImageToClearButton(image: image, button: button)
+                        break
+                    }
+                    case .roundCorner:
+                    if let image = UIImage(named: "roundCornerClearButton") {
+                        self.setImageToClearButton(image: image, button: button)
+                        break
+                    }
+                    case .squareCorner:
+                    if let image = UIImage(named: "squaredClearButton") {
+                        self.setImageToClearButton(image: image, button: button)
+                        break
+                    }
+                    case .simple:
+                    if let image = UIImage(named: "simpleClearButton") {
+                        self.setImageToClearButton(image: image, button: button)
+                        break
+                    }
+                    case .custom:
+                        if let image = self.customClearButtonImage {
+                            self.setImageToClearButton(image: image, button: button)
+                            break
+                        } else {
+                            self.clearButtonType = .iosDefault
+                            self.customizeClearButton()
+                        }
+                    }
                 }
             }
         }
+    }
+    
+    fileprivate func setImageToClearButton(image: UIImage, button: UIButton) {
+        let alphaImage = image.alpha(self.clearButtonAlpha)
+        if self.tintedClearImage == nil {
+            tintedClearImage = alphaImage.withTintColor(self.bottomActiveColor)
+        }
+        button.setImage(self.tintedClearImage, for: .normal)
+        button.setImage(self.tintedClearImage, for: .highlighted)
     }
     
     //MARK: HANDLERS
@@ -134,3 +206,13 @@ public class FCTextField: UITextField {
     }
 }
 
+extension UIImage {
+    
+    func alpha(_ value:CGFloat) -> UIImage {
+        UIGraphicsBeginImageContextWithOptions(size, false, scale)
+        draw(at: CGPoint.zero, blendMode: .normal, alpha: value)
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return newImage!
+    }
+}
