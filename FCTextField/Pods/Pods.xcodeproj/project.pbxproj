@@ -9,10 +9,11 @@
 /* Begin PBXAggregateTarget section */
 		40FA75E79407A864D2E74948F3872153 /* FCTextField */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 787E2969E5E249C47FF6E1AB0527150F /* Build configuration list for PBXAggregateTarget "FCTextField" */;
+			buildConfigurationList = 3F6BD0891E57E6E05FB2C7150738586A /* Build configuration list for PBXAggregateTarget "FCTextField" */;
 			buildPhases = (
 			);
 			dependencies = (
+				60020AD6076AFD40040A58A704B463C5 /* PBXTargetDependency */,
 			);
 			name = FCTextField;
 		};
@@ -20,8 +21,9 @@
 
 /* Begin PBXBuildFile section */
 		4A66028E34B479989A9911003D542DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		845EAF85941C0FD28F5C6C1FB3D19BE0 /* Pods-FCTextFieldExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87DA45AA87D68B89C22C1732B4C6E77B /* Pods-FCTextFieldExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECED8A6C53589643C657E7DA186344A1 /* Pods-FCTextFieldExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9C423D12189AE64F4E485F27A02688 /* Pods-FCTextFieldExample-dummy.m */; };
+		845EAF85941C0FD28F5C6C1FB3D19BE0 /* Pods-FCTextFieldExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F1A4E6F37DE6689BF1F225E016A00F /* Pods-FCTextFieldExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B608A7E7977D13E41CAA70464B3A948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E843D4CCDB894AF0C172FB31A25F8865 /* Assets.xcassets */; };
+		ECED8A6C53589643C657E7DA186344A1 /* Pods-FCTextFieldExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA0A94F6E1ECCF41052F888A44F54A /* Pods-FCTextFieldExample-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,25 +34,43 @@
 			remoteGlobalIDString = 40FA75E79407A864D2E74948F3872153;
 			remoteInfo = FCTextField;
 		};
+		4C00F7B4125896CA441DA5FFA6557B2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35608C67C3602E4E4FFDC89AA793F3D8;
+			remoteInfo = "FCTextField-FCTextField";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16ADA259AB319580BEA6214C70AD5FD6 /* Pods-FCTextFieldExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCTextFieldExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		194086416A54D0FB8736C95CCA3F38A5 /* Pods-FCTextFieldExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCTextFieldExample.release.xcconfig"; sourceTree = "<group>"; };
+		13AA0A94F6E1ECCF41052F888A44F54A /* Pods-FCTextFieldExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FCTextFieldExample-dummy.m"; sourceTree = "<group>"; };
+		179D1C7032492B13B4DEC68E0999F687 /* Pods-FCTextFieldExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCTextFieldExample.debug.xcconfig"; sourceTree = "<group>"; };
+		23F1A4E6F37DE6689BF1F225E016A00F /* Pods-FCTextFieldExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FCTextFieldExample-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5298F098F0BC3ACF5E026A52A126ED6B /* Pods-FCTextFieldExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FCTextFieldExample.modulemap"; sourceTree = "<group>"; };
-		52FA3AA9493FA7F720AB22184B292822 /* FCTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FCTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5B962448496F34814C5E115BE22E5ED0 /* FCTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCTextField.xcconfig; sourceTree = "<group>"; };
+		3594285256BCECA61F433D887890D999 /* Pods-FCTextFieldExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCTextFieldExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		689BC552352886AB2CAC61348AD9A2E6 /* Pods-FCTextFieldExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FCTextFieldExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		86E10A3012B47CFCB0C7C1BD0864B173 /* Pods_FCTextFieldExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FCTextFieldExample.framework; path = "Pods-FCTextFieldExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		87DA45AA87D68B89C22C1732B4C6E77B /* Pods-FCTextFieldExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FCTextFieldExample-umbrella.h"; sourceTree = "<group>"; };
+		8A656A2C25B51236FB940F4AE50E8983 /* Pods-FCTextFieldExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCTextFieldExample.release.xcconfig"; sourceTree = "<group>"; };
+		9D26A1F639F10942C6B2BBB2C982A417 /* Pods-FCTextFieldExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCTextFieldExample-resources.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DEEEC15F89B9C9BA9F7AD9EBDE0F32C /* Pods-FCTextFieldExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCTextFieldExample-Info.plist"; sourceTree = "<group>"; };
-		9F9C423D12189AE64F4E485F27A02688 /* Pods-FCTextFieldExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FCTextFieldExample-dummy.m"; sourceTree = "<group>"; };
-		A77EFB49B16FF90C4265E0B1FADC6648 /* Pods-FCTextFieldExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCTextFieldExample.debug.xcconfig"; sourceTree = "<group>"; };
-		B71CB41D9269C01BA8C99B2828635698 /* Pods-FCTextFieldExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FCTextFieldExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB02D609EB02406213EFB97F32ACFA7C /* FCTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCTextField.xcconfig; sourceTree = "<group>"; };
+		ADA0E410640B60B49E8E071DA345B94B /* ResourceBundle-FCTextField-FCTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FCTextField-FCTextField-Info.plist"; sourceTree = "<group>"; };
+		B3206968C0959F9F6BAC084A887CFD68 /* Pods-FCTextFieldExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCTextFieldExample-Info.plist"; sourceTree = "<group>"; };
+		BE7E80F686FF7473A59FDC6626A99E26 /* Pods-FCTextFieldExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FCTextFieldExample.modulemap"; sourceTree = "<group>"; };
+		D1D22B36AF8EF1DCA37DE076945E1991 /* FCTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FCTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E843D4CCDB894AF0C172FB31A25F8865 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = FCTextField/Assets.xcassets; sourceTree = "<group>"; };
+		FB7D579E312334D603644BA61D806A12 /* FCTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FCTextField.bundle; path = "FCTextField-FCTextField.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F6EFF6E17D4CD9A81635ABE9BCBF51B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FCD256B0DDF420B256E1E1C32CFF8BF4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,68 +82,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1491D9E0BDC298FA0D34F8D203B6F1B6 /* Targets Support Files */ = {
+		3B2F3141CA5C4C56E49597D410785AEF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9393C6D1111788251B6242746FABA678 /* Pods-FCTextFieldExample */,
+				3B693EDE6065FC5042DE165E81EC9EB3 /* FCTextField */,
 			);
-			name = "Targets Support Files";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		9393C6D1111788251B6242746FABA678 /* Pods-FCTextFieldExample */ = {
+		3B693EDE6065FC5042DE165E81EC9EB3 /* FCTextField */ = {
 			isa = PBXGroup;
 			children = (
-				5298F098F0BC3ACF5E026A52A126ED6B /* Pods-FCTextFieldExample.modulemap */,
-				B71CB41D9269C01BA8C99B2828635698 /* Pods-FCTextFieldExample-acknowledgements.markdown */,
-				16ADA259AB319580BEA6214C70AD5FD6 /* Pods-FCTextFieldExample-acknowledgements.plist */,
-				9F9C423D12189AE64F4E485F27A02688 /* Pods-FCTextFieldExample-dummy.m */,
-				9DEEEC15F89B9C9BA9F7AD9EBDE0F32C /* Pods-FCTextFieldExample-Info.plist */,
-				87DA45AA87D68B89C22C1732B4C6E77B /* Pods-FCTextFieldExample-umbrella.h */,
-				A77EFB49B16FF90C4265E0B1FADC6648 /* Pods-FCTextFieldExample.debug.xcconfig */,
-				194086416A54D0FB8736C95CCA3F38A5 /* Pods-FCTextFieldExample.release.xcconfig */,
-			);
-			name = "Pods-FCTextFieldExample";
-			path = "Target Support Files/Pods-FCTextFieldExample";
-			sourceTree = "<group>";
-		};
-		A3A6F95662D29FAF9B40826EFA59B1FE /* FCTextField */ = {
-			isa = PBXGroup;
-			children = (
-				ABD45AD0A39C7EFC8AE1119AC123AC77 /* Pod */,
-				B55218376866C480584AC42A382D654F /* Support Files */,
+				BA8A8C789F15AB3A6ADD4319D84EA74C /* Pod */,
+				A9B184242AF589FE3F02F09D3645EE90 /* Resources */,
+				BE95E7B3C22820D39B167792B7DD3858 /* Support Files */,
 			);
 			name = FCTextField;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		A42962487641D4E9DB8B589EE4B81C1C /* Development Pods */ = {
+		74131448BC85B41369B8208F930DAE41 /* Pods-FCTextFieldExample */ = {
 			isa = PBXGroup;
 			children = (
-				A3A6F95662D29FAF9B40826EFA59B1FE /* FCTextField */,
+				BE7E80F686FF7473A59FDC6626A99E26 /* Pods-FCTextFieldExample.modulemap */,
+				689BC552352886AB2CAC61348AD9A2E6 /* Pods-FCTextFieldExample-acknowledgements.markdown */,
+				3594285256BCECA61F433D887890D999 /* Pods-FCTextFieldExample-acknowledgements.plist */,
+				13AA0A94F6E1ECCF41052F888A44F54A /* Pods-FCTextFieldExample-dummy.m */,
+				B3206968C0959F9F6BAC084A887CFD68 /* Pods-FCTextFieldExample-Info.plist */,
+				9D26A1F639F10942C6B2BBB2C982A417 /* Pods-FCTextFieldExample-resources.sh */,
+				23F1A4E6F37DE6689BF1F225E016A00F /* Pods-FCTextFieldExample-umbrella.h */,
+				179D1C7032492B13B4DEC68E0999F687 /* Pods-FCTextFieldExample.debug.xcconfig */,
+				8A656A2C25B51236FB940F4AE50E8983 /* Pods-FCTextFieldExample.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Pods-FCTextFieldExample";
+			path = "Target Support Files/Pods-FCTextFieldExample";
 			sourceTree = "<group>";
 		};
-		ABD45AD0A39C7EFC8AE1119AC123AC77 /* Pod */ = {
+		A9B184242AF589FE3F02F09D3645EE90 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				52FA3AA9493FA7F720AB22184B292822 /* FCTextField.podspec */,
+				E843D4CCDB894AF0C172FB31A25F8865 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BA8A8C789F15AB3A6ADD4319D84EA74C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D1D22B36AF8EF1DCA37DE076945E1991 /* FCTextField.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		AD7EEE3B47E69C292D6934AEFDCE3A24 /* Products */ = {
+		BE95E7B3C22820D39B167792B7DD3858 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				86E10A3012B47CFCB0C7C1BD0864B173 /* Pods_FCTextFieldExample.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B55218376866C480584AC42A382D654F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5B962448496F34814C5E115BE22E5ED0 /* FCTextField.xcconfig */,
+				AB02D609EB02406213EFB97F32ACFA7C /* FCTextField.xcconfig */,
+				ADA0E410640B60B49E8E071DA345B94B /* ResourceBundle-FCTextField-FCTextField-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Pods/Target Support Files/FCTextField";
@@ -137,14 +152,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		CBE987EF5B2EF2AA527812F4EC7547FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB7D579E312334D603644BA61D806A12 /* FCTextField.bundle */,
+				86E10A3012B47CFCB0C7C1BD0864B173 /* Pods_FCTextFieldExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A42962487641D4E9DB8B589EE4B81C1C /* Development Pods */,
+				3B2F3141CA5C4C56E49597D410785AEF /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				AD7EEE3B47E69C292D6934AEFDCE3A24 /* Products */,
-				1491D9E0BDC298FA0D34F8D203B6F1B6 /* Targets Support Files */,
+				CBE987EF5B2EF2AA527812F4EC7547FC /* Products */,
+				EC55E3B1380B94185D0CAF79480DF611 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,6 +178,14 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC55E3B1380B94185D0CAF79480DF611 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74131448BC85B41369B8208F930DAE41 /* Pods-FCTextFieldExample */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +202,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		35608C67C3602E4E4FFDC89AA793F3D8 /* FCTextField-FCTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6656E18E44B7071A76E55B47C85FE31F /* Build configuration list for PBXNativeTarget "FCTextField-FCTextField" */;
+			buildPhases = (
+				5D4701682405040ECF7087669548B05B /* Sources */,
+				F6EFF6E17D4CD9A81635ABE9BCBF51B3 /* Frameworks */,
+				BE710378B967E08FD0611EFBCD85F513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FCTextField-FCTextField";
+			productName = "FCTextField-FCTextField";
+			productReference = FB7D579E312334D603644BA61D806A12 /* FCTextField.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		CFE377A2849CA02A3F8CF5BA35D2CA53 /* Pods-FCTextFieldExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 867291D1F29C5BDFB5A1CB6CFA177B4C /* Build configuration list for PBXNativeTarget "Pods-FCTextFieldExample" */;
@@ -207,17 +256,26 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = AD7EEE3B47E69C292D6934AEFDCE3A24 /* Products */;
+			productRefGroup = CBE987EF5B2EF2AA527812F4EC7547FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				40FA75E79407A864D2E74948F3872153 /* FCTextField */,
+				35608C67C3602E4E4FFDC89AA793F3D8 /* FCTextField-FCTextField */,
 				CFE377A2849CA02A3F8CF5BA35D2CA53 /* Pods-FCTextFieldExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BE710378B967E08FD0611EFBCD85F513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B608A7E7977D13E41CAA70464B3A948 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2C33752C389D233B35A8095B0BFE445 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,6 +286,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5D4701682405040ECF7087669548B05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6956026C44D1EA608247D9DA31AF262 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,12 +310,18 @@
 			target = 40FA75E79407A864D2E74948F3872153 /* FCTextField */;
 			targetProxy = 10178AC291E3EE14E9AEE51216BAA4B5 /* PBXContainerItemProxy */;
 		};
+		60020AD6076AFD40040A58A704B463C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FCTextField-FCTextField";
+			target = 35608C67C3602E4E4FFDC89AA793F3D8 /* FCTextField-FCTextField */;
+			targetProxy = 4C00F7B4125896CA441DA5FFA6557B2B /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2C22B47A87E65F3A9456549F6A44853A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A77EFB49B16FF90C4265E0B1FADC6648 /* Pods-FCTextFieldExample.debug.xcconfig */;
+			baseConfigurationReference = 179D1C7032492B13B4DEC68E0999F687 /* Pods-FCTextFieldExample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -286,9 +357,9 @@
 			};
 			name = Debug;
 		};
-		45DF9D5B1ECB4C5460706C7611477970 /* Debug */ = {
+		33EABF84C3DA4BE13C03E1A682E4D7C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B962448496F34814C5E115BE22E5ED0 /* FCTextField.xcconfig */;
+			baseConfigurationReference = AB02D609EB02406213EFB97F32ACFA7C /* FCTextField.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -304,7 +375,7 @@
 		};
 		8BEB4AB3C8D988AD55C5B7406FF89577 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 194086416A54D0FB8736C95CCA3F38A5 /* Pods-FCTextFieldExample.release.xcconfig */;
+			baseConfigurationReference = 8A656A2C25B51236FB940F4AE50E8983 /* Pods-FCTextFieldExample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -405,9 +476,9 @@
 			};
 			name = Debug;
 		};
-		AECA92C4155CFC302EB367266A472B8C /* Release */ = {
+		A521862DE92E1FD13B200F586470BADB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B962448496F34814C5E115BE22E5ED0 /* FCTextField.xcconfig */;
+			baseConfigurationReference = AB02D609EB02406213EFB97F32ACFA7C /* FCTextField.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -421,6 +492,23 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		B011FC76D3E253F6F6D1494523861464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB02D609EB02406213EFB97F32ACFA7C /* FCTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCTextField";
+				IBSC_MODULE = FCTextField;
+				INFOPLIST_FILE = "Target Support Files/FCTextField/ResourceBundle-FCTextField-FCTextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = FCTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -482,9 +570,35 @@
 			};
 			name = Release;
 		};
+		FA0BDB42F04E1A8A1869360C7FB56AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB02D609EB02406213EFB97F32ACFA7C /* FCTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCTextField";
+				IBSC_MODULE = FCTextField;
+				INFOPLIST_FILE = "Target Support Files/FCTextField/ResourceBundle-FCTextField-FCTextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = FCTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F6BD0891E57E6E05FB2C7150738586A /* Build configuration list for PBXAggregateTarget "FCTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EABF84C3DA4BE13C03E1A682E4D7C3 /* Debug */,
+				A521862DE92E1FD13B200F586470BADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -494,11 +608,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		787E2969E5E249C47FF6E1AB0527150F /* Build configuration list for PBXAggregateTarget "FCTextField" */ = {
+		6656E18E44B7071A76E55B47C85FE31F /* Build configuration list for PBXNativeTarget "FCTextField-FCTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45DF9D5B1ECB4C5460706C7611477970 /* Debug */,
-				AECA92C4155CFC302EB367266A472B8C /* Release */,
+				B011FC76D3E253F6F6D1494523861464 /* Debug */,
+				FA0BDB42F04E1A8A1869360C7FB56AFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

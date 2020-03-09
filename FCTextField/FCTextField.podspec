@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FCTextField"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "Custom UITextField including example App."
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC  "Custom UITextField including example App."
+  spec.description  = <<-DESC  "Awesome custom UITextField in swift."
                    DESC
 
   spec.homepage     = "https://github.com/fernandacarvalho"
@@ -100,8 +100,11 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  spec.resource  = "Resources/FCTextField.bundle"
+  # spec.resources = "FCTextField/Assets/*.xcassets"
+  spec.resource_bundles = {
+     'FCTextField' => ['FCTextField/Assets.xcassets']
+  }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

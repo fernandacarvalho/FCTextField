@@ -101,37 +101,37 @@ public class FCTextField: UITextField {
                             break
                         }
                     case .arrow:
-                        if let image = UIImage(named: "arrowClearButton") {
+                        if let image = UIImage(named: "arrowClearButton", in: BundleUtil.bundle, compatibleWith: nil) {
                             self.setImageToClearButton(image: image, button: button)
                             break
                         }
                     case .outlineArrow:
-                    if let image = UIImage(named: "outlineArrowClearButton") {
+                    if let image = UIImage(named: "outlineArrowClearButton", in: BundleUtil.bundle, compatibleWith: nil) {
                         self.setImageToClearButton(image: image, button: button)
                         break
                     }
                     case .rounded:
-                    if let image = UIImage(named: "roundedClearButton") {
+                    if let image = UIImage(named: "roundedClearButton", in: BundleUtil.bundle, compatibleWith: nil) {
                         self.setImageToClearButton(image: image, button: button)
                         break
                     }
                     case .outlineRounded:
-                    if let image = UIImage(named: "outlineRoundedClearButton") {
+                    if let image = UIImage(named: "outlineRoundedClearButton", in: BundleUtil.bundle, compatibleWith: nil) {
                         self.setImageToClearButton(image: image, button: button)
                         break
                     }
                     case .roundCorner:
-                    if let image = UIImage(named: "roundCornerClearButton") {
+                    if let image = UIImage(named: "roundCornerClearButton", in: BundleUtil.bundle, compatibleWith: nil) {
                         self.setImageToClearButton(image: image, button: button)
                         break
                     }
                     case .squareCorner:
-                    if let image = UIImage(named: "squaredClearButton") {
+                    if let image = UIImage(named: "squaredClearButton", in: BundleUtil.bundle, compatibleWith: nil) {
                         self.setImageToClearButton(image: image, button: button)
                         break
                     }
                     case .simple:
-                    if let image = UIImage(named: "simpleClearButton") {
+                    if let image = UIImage(named: "simpleClearButton", in: BundleUtil.bundle, compatibleWith: nil) {
                         self.setImageToClearButton(image: image, button: button)
                         break
                     }
@@ -216,5 +216,18 @@ extension UIImage {
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         return newImage!
+    }
+}
+
+open class BundleUtil: NSObject {
+    public static var bundle: Bundle {
+        get {
+            var bundle = Bundle(for: self.classForCoder())
+            if let bundlePath:String = bundle.path(forResource: "FCTextField", ofType: "bundle")
+            {
+                bundle =  Bundle(path: bundlePath)!
+            }
+            return bundle
+        }
     }
 }

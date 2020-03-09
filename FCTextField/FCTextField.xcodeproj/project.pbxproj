@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E2D7C3B31CF1F7CEE8A31E14 /* Pods_FCTextFieldExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE12E771C3CE7127A7283B8B /* Pods_FCTextFieldExample.framework */; };
+		EF3C63C12410477D0095E1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3C63C02410477D0095E1C2 /* Assets.xcassets */; };
 		EF9BBDB323F463CC007F0B24 /* FCTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9BBDA923F463CC007F0B24 /* FCTextField.framework */; };
 		EF9BBDB823F463CC007F0B24 /* FCTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BBDB723F463CC007F0B24 /* FCTextFieldTests.swift */; };
 		EF9BBDBA23F463CC007F0B24 /* FCTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9BBDAC23F463CC007F0B24 /* FCTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,6 +43,7 @@
 		46A54295D09527044054CBB6 /* Pods-FCTextFieldExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCTextFieldExample.debug.xcconfig"; path = "Target Support Files/Pods-FCTextFieldExample/Pods-FCTextFieldExample.debug.xcconfig"; sourceTree = "<group>"; };
 		7FC1D0DAEF6A5697287C4DC1 /* Pods-FCTextFieldExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCTextFieldExample.release.xcconfig"; path = "Target Support Files/Pods-FCTextFieldExample/Pods-FCTextFieldExample.release.xcconfig"; sourceTree = "<group>"; };
 		DE12E771C3CE7127A7283B8B /* Pods_FCTextFieldExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FCTextFieldExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3C63C02410477D0095E1C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF9BBDA923F463CC007F0B24 /* FCTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FCTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9BBDAC23F463CC007F0B24 /* FCTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCTextField.h; sourceTree = "<group>"; };
 		EF9BBDAD23F463CC007F0B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				EF9BBDAC23F463CC007F0B24 /* FCTextField.h */,
 				EF9BBDAD23F463CC007F0B24 /* Info.plist */,
 				EF9BBDC323F466ED007F0B24 /* FCTextField.swift */,
+				EF3C63C02410477D0095E1C2 /* Assets.xcassets */,
 			);
 			path = FCTextField;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				EF9BBDC523F47AC3007F0B24 /* Sources */,
 				EF9BBDC623F47AC3007F0B24 /* Frameworks */,
 				EF9BBDC723F47AC3007F0B24 /* Resources */,
+				47055487FE4C4A1DA2727755 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF3C63C12410477D0095E1C2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +302,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		47055487FE4C4A1DA2727755 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FCTextFieldExample/Pods-FCTextFieldExample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FCTextFieldExample/Pods-FCTextFieldExample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FCTextFieldExample/Pods-FCTextFieldExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7A7202D82298A4964A0ACCAF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

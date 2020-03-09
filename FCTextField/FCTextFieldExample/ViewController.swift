@@ -11,10 +11,11 @@ import FCTextField
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var emailTxt: FCTextField!
-    @IBOutlet weak var passwordTxt: FCTextField!
+    
+    @IBOutlet weak var example1: FCTextField!
     @IBOutlet weak var example2: FCTextField!
     @IBOutlet weak var example3: FCTextField!
+    @IBOutlet weak var example4: FCTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,21 +27,23 @@ class ViewController: UIViewController {
         //self.emailTxt.placeholderColor = yourColor
         
         //HOW TO STYLE CLEAR BUTTON:
-        let alpha : CGFloat = 0.7
-        let type = ClearButtonType.custom
-        self.emailTxt.clearButtonAlpha = alpha
-        self.emailTxt.clearButtonType = type
-        self.passwordTxt.clearButtonAlpha = alpha
-        self.passwordTxt.clearButtonType = type
+        let alpha : CGFloat = 0.5
+        self.example1.clearButtonAlpha = alpha
         
         //CUSTOM IMAGE EXAMPLE
-        let image = UIImage(named: "outlineRoundedClearButton")
-        self.emailTxt.customClearButtonImage = image
-        self.passwordTxt.customClearButtonImage = image
+        self.example1.clearButtonType = ClearButtonType.custom
+        let image = UIImage(named: "customImageExample")
+        self.example1.customClearButtonImage = image
+        
         
         //PRE-DEFINED CLEAR BUTTON TYPE EXAMPLE
-        self.example2.clearButtonType = .roundCorner
+        self.example2.clearButtonType = .outlineRounded
+        self.example2.clearButtonAlpha = 0.8
+        
         self.example3.clearButtonType = .arrow
+        
+        self.example4.clearButtonAlpha = 0.6
+        self.example4.clearButtonType = .roundCorner
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

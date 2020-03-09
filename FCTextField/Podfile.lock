@@ -1,5 +1,5 @@
 PODS:
-  - FCTextField (0.0.1)
+  - FCTextField (1.0.0)
 
 DEPENDENCIES:
   - FCTextField (from `.`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  FCTextField: 6201caab88d29f61869319f21bb5aad47aa4784f
+  FCTextField: efa2766ac9337b4b2bfde4fdb3f6effc9a466ddf
 
 PODFILE CHECKSUM: cf7687265b31e6df2282070933568e43ef1a6742
 
