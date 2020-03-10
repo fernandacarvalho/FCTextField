@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC  "Awesome custom UITextField in swift."
                    DESC
 
-  spec.homepage     = "https://github.com/fernandacarvalho"
+  spec.homepage     = "https://github.com/fernandacarvalho/FCText-field"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
