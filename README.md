@@ -24,12 +24,16 @@ ____________________________
 
 You can use Cocoapods to install FCTextField by adding it to your Podfile:
 
-<TODO>
+```javascript
+use_frameworks!
+pod 'FCTextField'
+```
 
 And then import FCTextField:
 
+```javascript
 import FCTextField
-
+```
 ____________________________
 
 ## Usage
@@ -64,5 +68,5 @@ ____________________________
    
 * If the type isn't chosen, the .iosDefault will be applied and the ios native icon for clear button will appear.
 * If the type chosen is .custom but the image isn't provided, the ios native icon for clear button will appear.
-
+* You can see the usage in the ExampleApp
 
