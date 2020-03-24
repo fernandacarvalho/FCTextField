@@ -42,7 +42,7 @@ ____________________________
   If you want to show clearButton:
 
 5. Change 'Clear Button' property from 'Never appears' to 'Appears while editing'
-6. Create an IBOutlet to your class and set 'clearButtonType' property. You can choose between:
+6. Create an IBOutlet in your class and set 'clearButtonType' property. You can choose between:
     - iosDefault (native icon)
     - simple ![](https://github.com/fernandacarvalho/FCText-field/blob/master/assets/simpleClearButton.png)
     - rounded ![](https://github.com/fernandacarvalho/FCText-field/blob/master/assets/roundedClearButton.png)
@@ -54,10 +54,12 @@ ____________________________
     - custom (user provides the image)
     
    Ex: myTextField.clearButtonType = .outlineRounded
+   
+7. Choose the color and the alpha of the clearButton
 
   If you choose ClearButtonType.custom:
 
-7. Set your image.
+8. Set your image.
    Ex: myTextField.customClearButtonImage = yourImage
    
 * If the type isn't chosen, the .iosDefault will be applied and the ios native icon for clear button will appear.
