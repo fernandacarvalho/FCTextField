@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        //HOW TO STYLE PROGRAMATICALLY:
+        //HOW TO STYLE PROGRAMMATICALLY:
         //self.emailTxt.bottomActiveColor = yourColor
         //self.emailTxt.bottomDefaultColor = yourColor
         //self.emailTxt.placeholderColor = yourColor
