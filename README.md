@@ -44,13 +44,13 @@ Usage
 5. Change 'Clear Button' property from 'Never appears' to 'Appears while editing'
 6. Create an IBOutlet to your class and set 'clearButtonType' property. You can choose between:
     - iosDefault (native icon)
-    - simple
-    - rounded
-    - outlineRounded
-    - arrow
-    - outlineArrow
-    - roundCorner
-    - squareCorner
+    - simple [logo]: https://github.com/fernandacarvalho/FCText-field/blob/master/assets/simpleClearButton.png
+    - rounded [logo]: https://github.com/fernandacarvalho/FCText-field/blob/master/assets/roundedClearButton.png
+    - outlineRounded [logo]: https://github.com/fernandacarvalho/FCText-field/blob/master/assets/outlineRoundedClearButton.png
+    - arrow  [logo]: https://github.com/fernandacarvalho/FCText-field/blob/master/assets/arrowClearButton.png
+    - outlineArrow [logo]: https://github.com/fernandacarvalho/FCText-field/blob/master/assets/outlineArrowClearButton.png
+    - roundCorner [logo]: https://github.com/fernandacarvalho/FCText-field/blob/master/assets/roundCornerClearButton.png
+    - squareCorner [logo]: https://github.com/fernandacarvalho/FCText-field/blob/master/assets/squaredClearButton.png
     - custom (user provides the image)
     
    Ex: myTextField.clearButtonType = .outlineRounded
