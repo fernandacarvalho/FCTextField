@@ -8,4 +8,6 @@ Some properties like colors and alpha can be set in storyboard.
 This is written in Swift.
 
 ____________________________
-![alt text](https://github.com/fernandacarvalho/FCText-field/blob/master/assets/fctextfield.gif")
+![alt text](https://github.com/fernandacarvalho/FCText-field/blob/master/assets/fctextfield.gif)
+
+[logo]: https://github.com/fernandacarvalho/FCText-field/blob/master/assets/fctextfield.gif
