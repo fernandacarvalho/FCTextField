@@ -76,7 +76,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/fernandacarvalho/FCText-field.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/fernandacarvalho/FCText-field.git", :branch => "master", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -100,7 +100,7 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-  spec.resource  = "Resources/FCTextField.bundle"
+  # spec.resource  = "Resources/FCTextField.bundle"
   # spec.resources = "FCTextField/Assets/*.xcassets"
   spec.resource_bundles = {
      'FCTextField' => ['FCTextField/Assets.xcassets']
