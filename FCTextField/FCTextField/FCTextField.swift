@@ -101,7 +101,7 @@ public class FCTextField: UITextField {
                             break
                         }
                     case .arrow:
-                        if let image = UIImage(named: "arrowClearButton", in: BundleUtil.bundle, compatibleWith: nil) {
+                        if let image = UIImage(named: "simpleArrowClearButton", in: BundleUtil.bundle, compatibleWith: nil) {
                             self.setImageToClearButton(image: image, button: button)
                             break
                         }

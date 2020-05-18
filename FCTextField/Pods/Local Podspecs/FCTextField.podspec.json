@@ -2,25 +2,24 @@
   "name": "FCTextField",
   "version": "1.0.0",
   "summary": "Custom UITextField including example App.",
-  "description": "Awesome custom UITextField in swift.",
+  "description": "Awesome custom UITextField in swift including example App.",
   "homepage": "https://github.com/fernandacarvalho/FCText-field",
   "license": "MIT",
   "authors": {
     "Fernanda Carvalho": "fkn.fernanda@gmail.com"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "13.0"
   },
   "source": {
     "git": "https://github.com/fernandacarvalho/FCText-field.git",
     "branch": "master",
     "tag": "1.0.0"
   },
-  "source_files": "FCTextField/*",
-  "resources": "FCTextField/Assets/*.xcassets",
+  "source_files": "FCTextField/**/*",
   "resource_bundles": {
     "FCTextField": [
-      "FCTextField/Assets.xcassets"
+      "FCTextField/**/*"
     ]
   }
 }

@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		E2D7C3B31CF1F7CEE8A31E14 /* Pods_FCTextFieldExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE12E771C3CE7127A7283B8B /* Pods_FCTextFieldExample.framework */; };
-		EF3C63C12410477D0095E1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3C63C02410477D0095E1C2 /* Assets.xcassets */; };
 		EF9BBDB323F463CC007F0B24 /* FCTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9BBDA923F463CC007F0B24 /* FCTextField.framework */; };
 		EF9BBDB823F463CC007F0B24 /* FCTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BBDB723F463CC007F0B24 /* FCTextFieldTests.swift */; };
 		EF9BBDBA23F463CC007F0B24 /* FCTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9BBDAC23F463CC007F0B24 /* FCTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,6 +19,9 @@
 		EF9BBDD523F47AC6007F0B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9BBDD423F47AC6007F0B24 /* Assets.xcassets */; };
 		EF9BBDD823F47AC6007F0B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9BBDD623F47AC6007F0B24 /* LaunchScreen.storyboard */; };
 		EF9BBDDD23F48736007F0B24 /* FCTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BBDC323F466ED007F0B24 /* FCTextField.swift */; };
+		F685282424722E61007F0AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3C63C02410477D0095E1C2 /* Assets.xcassets */; };
+		F6F6B6002472274E000C21DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3C63C02410477D0095E1C2 /* Assets.xcassets */; };
+		F6F6B60124722750000C21DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3C63C02410477D0095E1C2 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -278,7 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF3C63C12410477D0095E1C2 /* Assets.xcassets in Resources */,
+				F685282424722E61007F0AFF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F6B60124722750000C21DC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +298,7 @@
 			files = (
 				EF9BBDD823F47AC6007F0B24 /* LaunchScreen.storyboard in Resources */,
 				EF9BBDD523F47AC6007F0B24 /* Assets.xcassets in Resources */,
+				F6F6B6002472274E000C21DC /* Assets.xcassets in Resources */,
 				EF9BBDD323F47AC3007F0B24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,6 +542,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FCTextField/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -564,6 +569,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FCTextField/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -623,6 +629,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D56YT45BUR;
 				INFOPLIST_FILE = FCTextFieldExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -642,6 +649,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D56YT45BUR;
 				INFOPLIST_FILE = FCTextFieldExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
