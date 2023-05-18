@@ -160,6 +160,7 @@ public class FCTextField: UITextField {
         if self.tintedClearImage == nil {
             tintedClearImage = alphaImage.withTintColor(self.clearButtonColor)
         }
+        button.contentMode = .scaleAspectFit
         button.setImage(self.tintedClearImage, for: .normal)
         button.setImage(self.tintedClearImage, for: .highlighted)
     }

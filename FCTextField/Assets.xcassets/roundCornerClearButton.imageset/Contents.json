@@ -6,10 +6,12 @@
       "scale" : "1x"
     },
     {
+      "filename" : "roundCornerClearButton@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "roundCornerClearButton@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

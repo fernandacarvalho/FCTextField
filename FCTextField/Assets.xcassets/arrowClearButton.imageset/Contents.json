@@ -6,10 +6,12 @@
       "scale" : "1x"
     },
     {
+      "filename" : "arrowClearButton@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "arrowClearButton@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
