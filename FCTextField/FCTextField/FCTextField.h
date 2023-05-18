@@ -2,8 +2,7 @@
 //  FCTextField.h
 //  FCTextField
 //
-//  Created by Fernanda Carvalho on 12/02/20.
-//  Copyright © 2020 FernandaCarvalho. All rights reserved.
+//  Created by Fernanda FC. Carvalho on 17/05/23.
 //
 
 #import <Foundation/Foundation.h>
