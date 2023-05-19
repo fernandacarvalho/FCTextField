@@ -1,0 +1,11 @@
+framework module FCTextField {
+  umbrella header "FCTextField.h"
+
+  export *
+  module * { export * }
+}
+
+module FCTextField.Swift {
+  header "FCTextField-Swift.h"
+  requires objc
+}

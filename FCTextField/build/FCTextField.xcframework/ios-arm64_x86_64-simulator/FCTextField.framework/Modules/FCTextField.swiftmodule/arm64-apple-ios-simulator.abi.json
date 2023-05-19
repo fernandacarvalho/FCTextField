@@ -1,0 +1,1487 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FCTextField",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FCTextField"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FCTextField",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ClearButtonType",
+        "printedName": "ClearButtonType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "iosDefault",
+            "printedName": "iosDefault",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FCTextField.ClearButtonType.Type) -> FCTextField.ClearButtonType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClearButtonType",
+                    "printedName": "FCTextField.ClearButtonType",
+                    "usr": "s:11FCTextField15ClearButtonTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FCTextField.ClearButtonType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClearButtonType",
+                        "printedName": "FCTextField.ClearButtonType",
+                        "usr": "s:11FCTextField15ClearButtonTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FCTextField15ClearButtonTypeO10iosDefaultyA2CmF",
+            "mangledName": "$s11FCTextField15ClearButtonTypeO10iosDefaultyA2CmF",
+            "moduleName": "FCTextField"
+          },
+          {
+            "kind": "Var",
+            "name": "simple",
+            "printedName": "simple",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FCTextField.ClearButtonType.Type) -> FCTextField.ClearButtonType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClearButtonType",
+                    "printedName": "FCTextField.ClearButtonType",
+                    "usr": "s:11FCTextField15ClearButtonTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FCTextField.ClearButtonType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClearButtonType",
+                        "printedName": "FCTextField.ClearButtonType",
+                        "usr": "s:11FCTextField15ClearButtonTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FCTextField15ClearButtonTypeO6simpleyA2CmF",
+            "mangledName": "$s11FCTextField15ClearButtonTypeO6simpleyA2CmF",
+            "moduleName": "FCTextField",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rounded",
+            "printedName": "rounded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FCTextField.ClearButtonType.Type) -> FCTextField.ClearButtonType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClearButtonType",
+                    "printedName": "FCTextField.ClearButtonType",
+                    "usr": "s:11FCTextField15ClearButtonTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FCTextField.ClearButtonType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClearButtonType",
+                        "printedName": "FCTextField.ClearButtonType",
+                        "usr": "s:11FCTextField15ClearButtonTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FCTextField15ClearButtonTypeO7roundedyA2CmF",
+            "mangledName": "$s11FCTextField15ClearButtonTypeO7roundedyA2CmF",
+            "moduleName": "FCTextField"
+          },
+          {
+            "kind": "Var",
+            "name": "outlineRounded",
+            "printedName": "outlineRounded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FCTextField.ClearButtonType.Type) -> FCTextField.ClearButtonType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClearButtonType",
+                    "printedName": "FCTextField.ClearButtonType",
+                    "usr": "s:11FCTextField15ClearButtonTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FCTextField.ClearButtonType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClearButtonType",
+                        "printedName": "FCTextField.ClearButtonType",
+                        "usr": "s:11FCTextField15ClearButtonTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FCTextField15ClearButtonTypeO14outlineRoundedyA2CmF",
+            "mangledName": "$s11FCTextField15ClearButtonTypeO14outlineRoundedyA2CmF",
+            "moduleName": "FCTextField"
+          },
+          {
+            "kind": "Var",
+            "name": "arrow",
+            "printedName": "arrow",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FCTextField.ClearButtonType.Type) -> FCTextField.ClearButtonType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClearButtonType",
+                    "printedName": "FCTextField.ClearButtonType",
+                    "usr": "s:11FCTextField15ClearButtonTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FCTextField.ClearButtonType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClearButtonType",
+                        "printedName": "FCTextField.ClearButtonType",
+                        "usr": "s:11FCTextField15ClearButtonTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FCTextField15ClearButtonTypeO5arrowyA2CmF",
+            "mangledName": "$s11FCTextField15ClearButtonTypeO5arrowyA2CmF",
+            "moduleName": "FCTextField"
+          },
+          {
+            "kind": "Var",
+            "name": "outlineArrow",
+            "printedName": "outlineArrow",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FCTextField.ClearButtonType.Type) -> FCTextField.ClearButtonType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClearButtonType",
+                    "printedName": "FCTextField.ClearButtonType",
+                    "usr": "s:11FCTextField15ClearButtonTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FCTextField.ClearButtonType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClearButtonType",
+                        "printedName": "FCTextField.ClearButtonType",
+                        "usr": "s:11FCTextField15ClearButtonTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FCTextField15ClearButtonTypeO12outlineArrowyA2CmF",
+            "mangledName": "$s11FCTextField15ClearButtonTypeO12outlineArrowyA2CmF",
+            "moduleName": "FCTextField"
+          },
+          {
+            "kind": "Var",
+            "name": "roundCorner",
+            "printedName": "roundCorner",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FCTextField.ClearButtonType.Type) -> FCTextField.ClearButtonType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClearButtonType",
+                    "printedName": "FCTextField.ClearButtonType",
+                    "usr": "s:11FCTextField15ClearButtonTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FCTextField.ClearButtonType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClearButtonType",
+                        "printedName": "FCTextField.ClearButtonType",
+                        "usr": "s:11FCTextField15ClearButtonTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FCTextField15ClearButtonTypeO11roundCorneryA2CmF",
+            "mangledName": "$s11FCTextField15ClearButtonTypeO11roundCorneryA2CmF",
+            "moduleName": "FCTextField"
+          },
+          {
+            "kind": "Var",
+            "name": "squareCorner",
+            "printedName": "squareCorner",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FCTextField.ClearButtonType.Type) -> FCTextField.ClearButtonType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClearButtonType",
+                    "printedName": "FCTextField.ClearButtonType",
+                    "usr": "s:11FCTextField15ClearButtonTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FCTextField.ClearButtonType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClearButtonType",
+                        "printedName": "FCTextField.ClearButtonType",
+                        "usr": "s:11FCTextField15ClearButtonTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FCTextField15ClearButtonTypeO12squareCorneryA2CmF",
+            "mangledName": "$s11FCTextField15ClearButtonTypeO12squareCorneryA2CmF",
+            "moduleName": "FCTextField"
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FCTextField.ClearButtonType.Type) -> FCTextField.ClearButtonType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClearButtonType",
+                    "printedName": "FCTextField.ClearButtonType",
+                    "usr": "s:11FCTextField15ClearButtonTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FCTextField.ClearButtonType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClearButtonType",
+                        "printedName": "FCTextField.ClearButtonType",
+                        "usr": "s:11FCTextField15ClearButtonTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FCTextField15ClearButtonTypeO6customyA2CmF",
+            "mangledName": "$s11FCTextField15ClearButtonTypeO6customyA2CmF",
+            "moduleName": "FCTextField"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ClearButtonType",
+                "printedName": "FCTextField.ClearButtonType",
+                "usr": "s:11FCTextField15ClearButtonTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ClearButtonType",
+                "printedName": "FCTextField.ClearButtonType",
+                "usr": "s:11FCTextField15ClearButtonTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FCTextField15ClearButtonTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11FCTextField15ClearButtonTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "FCTextField",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FCTextField15ClearButtonTypeO9hashValueSivp",
+            "mangledName": "$s11FCTextField15ClearButtonTypeO9hashValueSivp",
+            "moduleName": "FCTextField",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FCTextField15ClearButtonTypeO9hashValueSivg",
+                "mangledName": "$s11FCTextField15ClearButtonTypeO9hashValueSivg",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FCTextField15ClearButtonTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11FCTextField15ClearButtonTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "FCTextField",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11FCTextField15ClearButtonTypeO",
+        "mangledName": "$s11FCTextField15ClearButtonTypeO",
+        "moduleName": "FCTextField",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FCTextField",
+        "printedName": "FCTextField",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "clearButtonType",
+            "printedName": "clearButtonType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ClearButtonType",
+                "printedName": "FCTextField.ClearButtonType",
+                "usr": "s:11FCTextField15ClearButtonTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FCTextFieldAAC15clearButtonTypeAA05CleardE0Ovp",
+            "mangledName": "$s11FCTextFieldAAC15clearButtonTypeAA05CleardE0Ovp",
+            "moduleName": "FCTextField",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClearButtonType",
+                    "printedName": "FCTextField.ClearButtonType",
+                    "usr": "s:11FCTextField15ClearButtonTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FCTextFieldAAC15clearButtonTypeAA05CleardE0Ovg",
+                "mangledName": "$s11FCTextFieldAAC15clearButtonTypeAA05CleardE0Ovg",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClearButtonType",
+                    "printedName": "FCTextField.ClearButtonType",
+                    "usr": "s:11FCTextField15ClearButtonTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FCTextFieldAAC15clearButtonTypeAA05CleardE0Ovs",
+                "mangledName": "$s11FCTextFieldAAC15clearButtonTypeAA05CleardE0Ovs",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FCTextFieldAAC15clearButtonTypeAA05CleardE0OvM",
+                "mangledName": "$s11FCTextFieldAAC15clearButtonTypeAA05CleardE0OvM",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customClearButtonImage",
+            "printedName": "customClearButtonImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FCTextFieldAAC22customClearButtonImageSo7UIImageCSgvp",
+            "mangledName": "$s11FCTextFieldAAC22customClearButtonImageSo7UIImageCSgvp",
+            "moduleName": "FCTextField",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FCTextFieldAAC22customClearButtonImageSo7UIImageCSgvg",
+                "mangledName": "$s11FCTextFieldAAC22customClearButtonImageSo7UIImageCSgvg",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FCTextFieldAAC22customClearButtonImageSo7UIImageCSgvs",
+                "mangledName": "$s11FCTextFieldAAC22customClearButtonImageSo7UIImageCSgvs",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FCTextFieldAAC22customClearButtonImageSo7UIImageCSgvM",
+                "mangledName": "$s11FCTextFieldAAC22customClearButtonImageSo7UIImageCSgvM",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clearButtonAlpha",
+            "printedName": "clearButtonAlpha",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FCTextField@objc(cs)FCTextField(py)clearButtonAlpha",
+            "mangledName": "$s11FCTextFieldAAC16clearButtonAlpha12CoreGraphics7CGFloatVvp",
+            "moduleName": "FCTextField",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FCTextField@objc(cs)FCTextField(im)clearButtonAlpha",
+                "mangledName": "$s11FCTextFieldAAC16clearButtonAlpha12CoreGraphics7CGFloatVvg",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FCTextField@objc(cs)FCTextField(im)setClearButtonAlpha:",
+                "mangledName": "$s11FCTextFieldAAC16clearButtonAlpha12CoreGraphics7CGFloatVvs",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FCTextFieldAAC16clearButtonAlpha14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s11FCTextFieldAAC16clearButtonAlpha12CoreGraphics7CGFloatVvM",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clearButtonColor",
+            "printedName": "clearButtonColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FCTextField@objc(cs)FCTextField(py)clearButtonColor",
+            "mangledName": "$s11FCTextFieldAAC16clearButtonColorSo7UIColorCvp",
+            "moduleName": "FCTextField",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FCTextField@objc(cs)FCTextField(im)clearButtonColor",
+                "mangledName": "$s11FCTextFieldAAC16clearButtonColorSo7UIColorCvg",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FCTextField@objc(cs)FCTextField(im)setClearButtonColor:",
+                "mangledName": "$s11FCTextFieldAAC16clearButtonColorSo7UIColorCvs",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FCTextFieldAAC16clearButtonColorSo7UIColorCvM",
+                "mangledName": "$s11FCTextFieldAAC16clearButtonColorSo7UIColorCvM",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bottomDefaultColor",
+            "printedName": "bottomDefaultColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FCTextField@objc(cs)FCTextField(py)bottomDefaultColor",
+            "mangledName": "$s11FCTextFieldAAC18bottomDefaultColorSo7UIColorCvp",
+            "moduleName": "FCTextField",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FCTextField@objc(cs)FCTextField(im)bottomDefaultColor",
+                "mangledName": "$s11FCTextFieldAAC18bottomDefaultColorSo7UIColorCvg",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FCTextField@objc(cs)FCTextField(im)setBottomDefaultColor:",
+                "mangledName": "$s11FCTextFieldAAC18bottomDefaultColorSo7UIColorCvs",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FCTextFieldAAC18bottomDefaultColorSo7UIColorCvM",
+                "mangledName": "$s11FCTextFieldAAC18bottomDefaultColorSo7UIColorCvM",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bottomActiveColor",
+            "printedName": "bottomActiveColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FCTextField@objc(cs)FCTextField(py)bottomActiveColor",
+            "mangledName": "$s11FCTextFieldAAC17bottomActiveColorSo7UIColorCvp",
+            "moduleName": "FCTextField",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FCTextField@objc(cs)FCTextField(im)bottomActiveColor",
+                "mangledName": "$s11FCTextFieldAAC17bottomActiveColorSo7UIColorCvg",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FCTextField@objc(cs)FCTextField(im)setBottomActiveColor:",
+                "mangledName": "$s11FCTextFieldAAC17bottomActiveColorSo7UIColorCvs",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FCTextFieldAAC17bottomActiveColorSo7UIColorCvM",
+                "mangledName": "$s11FCTextFieldAAC17bottomActiveColorSo7UIColorCvM",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "placeholderColor",
+            "printedName": "placeholderColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FCTextField@objc(cs)FCTextField(py)placeholderColor",
+            "mangledName": "$s11FCTextFieldAAC16placeholderColorSo7UIColorCvp",
+            "moduleName": "FCTextField",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FCTextField@objc(cs)FCTextField(im)placeholderColor",
+                "mangledName": "$s11FCTextFieldAAC16placeholderColorSo7UIColorCvg",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FCTextField@objc(cs)FCTextField(im)setPlaceholderColor:",
+                "mangledName": "$s11FCTextFieldAAC16placeholderColorSo7UIColorCvs",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FCTextFieldAAC16placeholderColorSo7UIColorCvM",
+                "mangledName": "$s11FCTextFieldAAC16placeholderColorSo7UIColorCvM",
+                "moduleName": "FCTextField",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FCTextField",
+                "printedName": "FCTextField.FCTextField",
+                "usr": "c:@M@FCTextField@objc(cs)FCTextField"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FCTextField@objc(cs)FCTextField(im)initWithFrame:",
+            "mangledName": "$s11FCTextFieldAAC5frameABSo6CGRectV_tcfc",
+            "moduleName": "FCTextField",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FCTextField@objc(cs)FCTextField(im)layoutSubviews",
+            "mangledName": "$s11FCTextFieldAAC14layoutSubviewsyyF",
+            "moduleName": "FCTextField",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FCTextField@objc(cs)FCTextField",
+        "mangledName": "$s11FCTextFieldAAC",
+        "moduleName": "FCTextField",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "IBDesignable",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UITextField",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UITextField",
+          "UIKit.UIControl",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FCTextField",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BundleUtil",
+        "printedName": "BundleUtil",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundle",
+            "printedName": "bundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FCTextField10BundleUtilC6bundleSo8NSBundleCvpZ",
+            "mangledName": "$s11FCTextField10BundleUtilC6bundleSo8NSBundleCvpZ",
+            "moduleName": "FCTextField",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FCTextField10BundleUtilC6bundleSo8NSBundleCvgZ",
+                "mangledName": "$s11FCTextField10BundleUtilC6bundleSo8NSBundleCvgZ",
+                "moduleName": "FCTextField",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BundleUtil",
+                "printedName": "FCTextField.BundleUtil",
+                "usr": "c:@M@FCTextField@objc(cs)BundleUtil"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FCTextField@objc(cs)BundleUtil(im)init",
+            "mangledName": "$s11FCTextField10BundleUtilCACycfc",
+            "moduleName": "FCTextField",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FCTextField@objc(cs)BundleUtil",
+        "mangledName": "$s11FCTextField10BundleUtilC",
+        "moduleName": "FCTextField",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/fernanda.carvalho\/referencias\/FCText-field\/FCTextField\/FCTextField.swift",
+      "kind": "FloatLiteral",
+      "offset": 877,
+      "length": 3,
+      "value": "0.5"
+    }
+  ]
+}

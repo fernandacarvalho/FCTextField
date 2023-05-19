@@ -1,0 +1,53 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FCTextField
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import FCTextField
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+public enum ClearButtonType {
+  case iosDefault
+  case simple
+  case rounded
+  case outlineRounded
+  case arrow
+  case outlineArrow
+  case roundCorner
+  case squareCorner
+  case custom
+  public static func == (a: FCTextField.ClearButtonType, b: FCTextField.ClearButtonType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class FCTextField : UIKit.UITextField {
+  @_Concurrency.MainActor(unsafe) open var clearButtonType: FCTextField.ClearButtonType
+  @_Concurrency.MainActor(unsafe) open var customClearButtonImage: UIKit.UIImage?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var clearButtonAlpha: CoreFoundation.CGFloat
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var clearButtonColor: UIKit.UIColor
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var bottomDefaultColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var bottomActiveColor: UIKit.UIColor
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var placeholderColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class BundleUtil : ObjectiveC.NSObject {
+  public static var bundle: Foundation.Bundle {
+    get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension FCTextField.ClearButtonType : Swift.Equatable {}
+extension FCTextField.ClearButtonType : Swift.Hashable {}
