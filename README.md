@@ -1,4 +1,4 @@
-# FCText-field
+# FCTextField
 
 
 A custom UITextField with animations on 'didBeginEditing' and 'didEndEditing' events. 
@@ -7,7 +7,7 @@ This is written in Swift.
 
 ____________________________
 
-![alt text](https://github.com/fernandacarvalho/FCText-field/blob/master/assets/fctextfield.gif)
+![alt text](https://github.com/fernandacarvalho/FCTextField/blob/master/assets/fctextfield.gif)
 
 ____________________________
 
@@ -25,7 +25,7 @@ ____________________________
 
 ```javascript
 dependencies: [
-    .package(url: "https://github.com/fernandacarvalho/FCText-field.git", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/fernandacarvalho/FCTextField.git", .upToNextMajor(from: "1.0.0"))
 ]
 ```
 
@@ -53,13 +53,13 @@ ____________________________
 5. Change 'Clear Button' property from 'Never appears' to 'Appears while editing'
 6. Create an IBOutlet in your class and set 'clearButtonType' property. You can choose between:
     - iosDefault (native icon)
-    - simple ![](https://github.com/fernandacarvalho/FCText-field/blob/master/assets/simpleClearButton.png)
-    - rounded ![](https://github.com/fernandacarvalho/FCText-field/blob/master/assets/roundedClearButton.png)
-    - outlineRounded ![](https://github.com/fernandacarvalho/FCText-field/blob/master/assets/outlineRoundedClearButton.png)
-    - arrow  ![](https://github.com/fernandacarvalho/FCText-field/blob/master/assets/arrowClearButton.png)
-    - outlineArrow ![](https://github.com/fernandacarvalho/FCText-field/blob/master/assets/outlineArrowClearButton.png)
-    - roundCorner ![](https://github.com/fernandacarvalho/FCText-field/blob/master/assets/roundCornerClearButton.png)
-    - squareCorner ![](https://github.com/fernandacarvalho/FCText-field/blob/master/assets/squaredClearButton.png)
+    - simple ![](https://github.com/fernandacarvalho/FCTextField/blob/master/assets/simpleClearButton.png)
+    - rounded ![](https://github.com/fernandacarvalho/FCTextField/blob/master/assets/roundedClearButton.png)
+    - outlineRounded ![](https://github.com/fernandacarvalho/FCTextField/blob/master/assets/outlineRoundedClearButton.png)
+    - arrow  ![](https://github.com/fernandacarvalho/FCTextField/blob/master/assets/arrowClearButton.png)
+    - outlineArrow ![](https://github.com/fernandacarvalho/FCTextField/blob/master/assets/outlineArrowClearButton.png)
+    - roundCorner ![](https://github.com/fernandacarvalho/FCTextField/blob/master/assets/roundCornerClearButton.png)
+    - squareCorner ![](https://github.com/fernandacarvalho/FCTextField/blob/master/assets/squaredClearButton.png)
     - custom (user provides the image)
     
    Ex: myTextField.clearButtonType = .outlineRounded
