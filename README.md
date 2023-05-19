@@ -13,23 +13,28 @@ ____________________________
 
 ## Features
 
-- Custom placeholder color in IB or programmatically
+- BorderBottom animation
 - Custom borderBottom color for default state and active state in IB or programmatically
-- Custom clearButton alpha in IB or programmatically
-- Custom clearButton icon
+- Custom clearButton alpha, color and icon 
 
 ____________________________
 
 ## Installation 
 
-You can use Cocoapods to install FCTextField by adding it to your Podfile:
+- Swift Package Manager:
 
 ```javascript
-use_frameworks!
-pod 'FCTextField'
+dependencies: [
+    .package(url: "https://github.com/fernandacarvalho/FCText-field.git", .upToNextMajor(from: "1.0.0"))
+]
 ```
 
-And then import FCTextField:
+- Manually:
+
+If you prefer not to use any dependency manager, you can find the binary framework on build folder and integrate FCTextField into your project manually.
+
+
+Then, import FCTextField:
 
 ```javascript
 import FCTextField
