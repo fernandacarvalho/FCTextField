@@ -25,7 +25,7 @@ public class FCTextField: UITextField {
     
     fileprivate var bottomLine = UIView()
     fileprivate var tintedClearImage: UIImage?
-
+    
     //Type of Clear Button if it is visible
     open var clearButtonType : ClearButtonType = .iosDefault
     
@@ -37,7 +37,7 @@ public class FCTextField: UITextField {
     
     //Value for color of Clear Button
     @IBInspectable open var clearButtonColor : UIColor = .lightGray
-
+    
     //The color of the line in the bottom
     @IBInspectable open var bottomDefaultColor : UIColor = .lightGray {
         didSet {
@@ -63,7 +63,7 @@ public class FCTextField: UITextField {
         super.init(coder: coder)
         self.initView()
     }
-            
+    
     //MARK: SETUPS
     
     fileprivate func initView() {
@@ -112,35 +112,35 @@ public class FCTextField: UITextField {
                             break
                         }
                     case .outlineArrow:
-                    if let image = UIImage(named: "outlineArrowClearButton", in: BundleUtil.bundle, compatibleWith: nil)?.withTintColor(self.clearButtonColor) {
-                        self.setImageToClearButton(image: image, button: button)
-                        break
-                    }
+                        if let image = UIImage(named: "outlineArrowClearButton", in: BundleUtil.bundle, compatibleWith: nil)?.withTintColor(self.clearButtonColor) {
+                            self.setImageToClearButton(image: image, button: button)
+                            break
+                        }
                     case .rounded:
-                    if let image = UIImage(named: "roundedClearButton", in: BundleUtil.bundle, compatibleWith: nil)?.withTintColor(self.clearButtonColor) {
-                        self.setImageToClearButton(image: image, button: button)
-                        break
-                    }
+                        if let image = UIImage(named: "roundedClearButton", in: BundleUtil.bundle, compatibleWith: nil)?.withTintColor(self.clearButtonColor) {
+                            self.setImageToClearButton(image: image, button: button)
+                            break
+                        }
                     case .outlineRounded:
-                    if let image = UIImage(named: "outlineRoundedClearButton", in: BundleUtil.bundle, compatibleWith: nil)?.withTintColor(self.clearButtonColor) {
-                        self.setImageToClearButton(image: image, button: button)
-                        break
-                    }
+                        if let image = UIImage(named: "outlineRoundedClearButton", in: BundleUtil.bundle, compatibleWith: nil)?.withTintColor(self.clearButtonColor) {
+                            self.setImageToClearButton(image: image, button: button)
+                            break
+                        }
                     case .roundCorner:
-                    if let image = UIImage(named: "roundCornerClearButton", in: BundleUtil.bundle, compatibleWith: nil)?.withTintColor(self.clearButtonColor) {
-                        self.setImageToClearButton(image: image, button: button)
-                        break
-                    }
+                        if let image = UIImage(named: "roundCornerClearButton", in: BundleUtil.bundle, compatibleWith: nil)?.withTintColor(self.clearButtonColor) {
+                            self.setImageToClearButton(image: image, button: button)
+                            break
+                        }
                     case .squareCorner:
-                    if let image = UIImage(named: "squaredClearButton", in: BundleUtil.bundle, compatibleWith: nil)?.withTintColor(self.clearButtonColor) {
-                        self.setImageToClearButton(image: image, button: button)
-                        break
-                    }
+                        if let image = UIImage(named: "squaredClearButton", in: BundleUtil.bundle, compatibleWith: nil)?.withTintColor(self.clearButtonColor) {
+                            self.setImageToClearButton(image: image, button: button)
+                            break
+                        }
                     case .simple:
-                    if let image = UIImage(named: "simpleClearButton", in: BundleUtil.bundle, compatibleWith: nil)?.withTintColor(self.clearButtonColor) {
-                        self.setImageToClearButton(image: image, button: button)
-                        break
-                    }
+                        if let image = UIImage(named: "simpleClearButton", in: BundleUtil.bundle, compatibleWith: nil)?.withTintColor(self.clearButtonColor) {
+                            self.setImageToClearButton(image: image, button: button)
+                            break
+                        }
                     case .custom:
                         if let image = self.customClearButtonImage {
                             self.setImageToClearButton(image: image, button: button)
@@ -215,5 +215,4 @@ public class FCTextField: UITextField {
         })
     }
 }
-
 
