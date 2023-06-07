@@ -25,7 +25,7 @@ ____________________________
 
 ```javascript
 dependencies: [
-    .package(url: "https://github.com/fernandacarvalho/FCTextField.git", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/fernandacarvalho/FCTextField/tree/master/Package", .upToNextMajor(from: "1.0.0"))
 ]
 ```
 
